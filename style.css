@@ -1,0 +1,12 @@
+h1 {
+    color: rgb(6, 94, 94);
+    text-shadow: 100px 100px 100px 150px;
+    font: size 500px;
+    font-weight: 600;
+}
+body {
+    background-color: darkgrey;
+}
+img { border-radius: 40%;
+    
+    }
