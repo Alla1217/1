@@ -5,8 +5,18 @@ h1 {
     font-weight: 600;
 }
 body {
-    background-color: darkgrey;
+    background-color: #abc7ab;
 }
-img { border-radius: 40%;
-    
-    }
+img { border-radius: 20%;
+    box-sizing: border-box;
+    width: 450px;
+    height: 450px;
+}
+li {
+    color: blueviolet;
+    width: 40px;
+    height: 40px;
+    padding: 40px;
+    font-size: 30px;
+    display:inline-block
+}
