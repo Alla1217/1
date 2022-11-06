@@ -1,23 +1,31 @@
 h1 {
     color: rgb(6, 94, 94);
     text-shadow: 100px 100px 100px 150px;
-    font: size 500px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 40px;
+    text-align: center;
+    
 }
-body {
-    background-color: #abc7ab;
+h3{
+    font-size: 35px;
+}
+header :hover{
+    color: #ad500d;
+}
+html {
+     background: rgb(179, 205, 175);
 }
 .img-bas{ 
     border-radius: 20%;
     box-sizing: border-box;
-    width: 400px;
-    height: 400px;
+    width: 430px;
+    height: 310px;
 }
 li {
     color: blueviolet;
-    width: 40px;
-    height: 40px;
-    padding: 40px;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
     font-size: 30px;
     display:inline-block
 }
@@ -38,7 +46,11 @@ li {
     text-transform: uppercase;
 }
 .shadow{
-    text-shadow: 1px 2px 20px rgb(244, 6, 6);
+    border-radius: 20px;
+    background: url(./vremena.jpg) 100% no-repeat;
+    background-size: cover;
+    height: 310px;
+    text-shadow: 100px 2px 20px rgb(228, 8, 8);
     text-indent: 60px;
     letter-spacing: 5px;
     word-spacing: 4px;
@@ -57,7 +69,16 @@ li {
    margin: 10px 20px 30px 40px;
 }
 .image-ex{ 
-    width: 300px;
-    max-width:200px;
-    min-width: 200px;  
+    max-width:350px;
+    max-height: 310px;  
 } 
+.blockfon {
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px goldenrod;
+    border-bottom: #930681;
+    background: url(./circle.jpg) 50%/ 100px no-repeat ,url(./fonblock.jpg) 50%/ cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
