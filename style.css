@@ -12,9 +12,7 @@ h1 {
 h3{
     font-size: 35px;
 }
-header :hover{
-    color: #ad500d;
-}
+
 html {
      background: rgb(179, 205, 175);
 }
@@ -169,13 +167,6 @@ li {
     top: -175px;
     left: 84px;
 }
-/* 
-.block-4{
-    margin: 20px;
-    padding: 20px;
-} */
-
-/* ------ */
 
 .list{
     font-size: 25px;
@@ -198,5 +189,14 @@ li {
     cursor: pointer;
 }
 .li-icon-2:hover::before{
-    background: url(./push.jpg) 10% 10% / contain no-repeat;
+    background: url("./push.jpg") 10% 10% / contain no-repeat;
 } 
+.block:hover {
+    background: url("./spring3.jpg") 100%/ contain no-repeat;
+}
+.block-2:hover {
+    background: url("./spring1.jpg") 100%;
+}
+.block-3:hover {
+    background: url("./spring.webp") 100%;
+}
